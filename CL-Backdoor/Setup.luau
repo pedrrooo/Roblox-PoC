@@ -18,7 +18,8 @@ local CeptionString = HttpService:GetAsync("https://raw.githubusercontent.com/ko
 local Ception = createScript("Ception", "ModuleScript", vLuau, "")
 
 num = 1
-for i = 1, 16 do
+for i = 1, 17 do
     Ception.Source = CeptionString:sub(num, num + 199998)
+    num = num + 199998
 end
 Ception.Source = CeptionString:sub(num, #CeptionString)
