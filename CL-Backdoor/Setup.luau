@@ -23,3 +23,7 @@ for i = 1, 17 do
     num = num + 199998
 end
 Ception.Source = CeptionString:sub(num, #CeptionString)
+
+print("Loaded!")
+
+return true
